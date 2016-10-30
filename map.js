@@ -33,5 +33,3 @@ console.log('map3.get(1) -> %s', map3.get(1))
 console.log('map3.get("1") -> %s', map3.get('1'))
 console.log('map3.get(2) -> %s', map3.get(2))
 console.log('map3.get("2") -> %s', map3.get('2'))
-
-console.log('\n')
