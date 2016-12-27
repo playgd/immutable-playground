@@ -33,3 +33,11 @@ console.log('map3.get(1) -> %s', map3.get(1))
 console.log('map3.get("1") -> %s', map3.get('1'))
 console.log('map3.get(2) -> %s', map3.get(2))
 console.log('map3.get("2") -> %s', map3.get('2'))
+
+const map4 = Map({
+  innerMap: Map({
+    inner2: 'test'
+  })
+})
+
+console.log('map4.getIn(["innerMap", "inner2"]) -> %s // test', map4.getIn(['innerMap', 'inner2']))
